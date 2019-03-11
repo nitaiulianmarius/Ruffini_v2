@@ -1,0 +1,480 @@
+# depslib dependency file v1.0
+1430747011 source:c:\users\iuly\desktop\test\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/engine.h"
+
+1430750540 source:c:\users\iuly\desktop\test\include\button.cpp
+	<iostream>
+	"button.h"
+
+1430747782 c:\users\iuly\desktop\test\include\button.h
+	<SFML/Graphics.hpp>
+	"stateMachine.h"
+
+1431355382 c:\users\iuly\desktop\test\include\statemachine.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1430763036 source:c:\users\iuly\desktop\test\include\menustate.cpp
+	<fstream>
+	<iostream>
+	"menuState.h"
+	"playState.h"
+
+1430763036 c:\users\iuly\desktop\test\include\menustate.h
+	"stateMachine.h"
+	"button.h"
+
+1424513772 c:\users\iuly\desktop\test\include\startstate.h
+	"stateMachine.h"
+	"button.h"
+
+1424513223 c:\users\iuly\desktop\test\include\optionstate.h
+	"stateMachine.h"
+	"button.h"
+
+1430741497 source:c:\users\iuly\desktop\test\include\optionstate.cpp
+	<fstream>
+	"optionState.h"
+	<iostream>
+
+1431239254 source:c:\users\iuly\desktop\test\include\player.cpp
+	"player.h"
+	"windows.h"
+
+1431352602 c:\users\iuly\desktop\test\include\player.h
+	<SFML/Graphics.hpp>
+	"time.h"
+	"vector2d.h"
+
+1431355416 source:c:\users\iuly\desktop\test\include\pausestate.cpp
+	"pauseState.h"
+	"menuState.h"
+	<stdio.h>
+	<ctime>
+
+1431246936 c:\users\iuly\desktop\test\include\pausestate.h
+	<vector>
+	"stateMachine.h"
+	"button.h"
+
+1431353806 source:c:\users\iuly\desktop\test\include\playstate.cpp
+	<fstream>
+	"playState.h"
+	"pauseState.h"
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<windows.h>
+
+1431358956 c:\users\iuly\desktop\test\include\playstate.h
+	<iostream>
+	"stateMachine.h"
+	"animation.h"
+	"fireball.h"
+	"iceball.h"
+	"shield.h"
+	"button.h"
+	"player.h"
+	"enemy.h"
+
+1430741665 source:c:\users\iuly\desktop\test\include\startstate.cpp
+	<fstream>
+	"startState.h"
+	"playState.h"
+	<iostream>
+
+1430942948 c:\users\iuly\desktop\test\include\engine.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<windows.h>
+	"stateMachine.h"
+	"menuState.h"
+
+1430915657 c:\users\iuly\desktop\test\include\vector2d.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	"time.h"
+	"math.h"
+
+1431242242 c:\users\iuly\desktop\test\include\animation.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<stdarg.h>
+	<time.h>
+
+1431349406 c:\users\iuly\desktop\test\include\fireball.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+	"animation.h"
+
+1431242242 source:c:\users\iuly\desktop\test\include\animation.cpp
+	"animation.h"
+	<iostream>
+
+1431094338 c:\users\iuly\desktop\test\include\iceball.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+	"animation.h"
+
+1431096307 c:\users\iuly\desktop\test\include\shield.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+
+1431291547 source:c:\users\iuly\desktop\test\include\enemy.cpp
+	"enemy.h"
+	"windows.h"
+	<iostream>
+
+1431352602 c:\users\iuly\desktop\test\include\enemy.h
+	<SFML/Graphics.hpp>
+	"time.h"
+	"vector2d.h"
+
+1431242242 source:c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\animation.cpp
+	"animation.h"
+	<iostream>
+
+1431242242 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\animation.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<stdarg.h>
+	<time.h>
+
+1430750540 source:c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\button.cpp
+	<iostream>
+	"button.h"
+
+1430747782 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\button.h
+	<SFML/Graphics.hpp>
+	"stateMachine.h"
+
+1431355382 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\statemachine.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1431291547 source:c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\enemy.cpp
+	"enemy.h"
+	"windows.h"
+	<iostream>
+
+1431352602 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\enemy.h
+	<SFML/Graphics.hpp>
+	"time.h"
+	"vector2d.h"
+
+1430915657 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\vector2d.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	"time.h"
+	"math.h"
+
+1430763036 source:c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\menustate.cpp
+	<fstream>
+	<iostream>
+	"menuState.h"
+	"playState.h"
+
+1430763036 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\menustate.h
+	"stateMachine.h"
+	"button.h"
+
+1431358956 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\playstate.h
+	<iostream>
+	"stateMachine.h"
+	"animation.h"
+	"fireball.h"
+	"iceball.h"
+	"shield.h"
+	"button.h"
+	"player.h"
+	"enemy.h"
+
+1431349406 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\fireball.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+	"animation.h"
+
+1431094338 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\iceball.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+	"animation.h"
+
+1431096307 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\shield.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+
+1431352602 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\player.h
+	<SFML/Graphics.hpp>
+	"time.h"
+	"vector2d.h"
+
+1431355416 source:c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\pausestate.cpp
+	"pauseState.h"
+	"menuState.h"
+	<stdio.h>
+	<ctime>
+
+1431246936 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\pausestate.h
+	<vector>
+	"stateMachine.h"
+	"button.h"
+
+1431239254 source:c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\player.cpp
+	"player.h"
+	"windows.h"
+
+1431353806 source:c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\playstate.cpp
+	<fstream>
+	"playState.h"
+	"pauseState.h"
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<windows.h>
+
+1430747011 source:c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/engine.h"
+
+1432728705 c:\documente\info\eu-jocuri\4) sfml\15)ruffini v2\include\engine.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<windows.h>
+	"stateMachine.h"
+	"menuState.h"
+
+1431242242 source:c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\animation.cpp
+	"animation.h"
+	<iostream>
+
+1431242242 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\animation.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<stdarg.h>
+	<time.h>
+
+1430750540 source:c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\button.cpp
+	<iostream>
+	"button.h"
+
+1430747782 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\button.h
+	<SFML/Graphics.hpp>
+	"stateMachine.h"
+
+1431355382 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\statemachine.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1431291547 source:c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\enemy.cpp
+	"enemy.h"
+	"windows.h"
+	<iostream>
+
+1431352602 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\enemy.h
+	<SFML/Graphics.hpp>
+	"time.h"
+	"vector2d.h"
+
+1430915657 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\vector2d.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	"time.h"
+	"math.h"
+
+1430763036 source:c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\menustate.cpp
+	<fstream>
+	<iostream>
+	"menuState.h"
+	"playState.h"
+
+1430763036 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\menustate.h
+	"stateMachine.h"
+	"button.h"
+
+1431358956 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\playstate.h
+	<iostream>
+	"stateMachine.h"
+	"animation.h"
+	"fireball.h"
+	"iceball.h"
+	"shield.h"
+	"button.h"
+	"player.h"
+	"enemy.h"
+
+1431349406 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\fireball.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+	"animation.h"
+
+1431094338 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\iceball.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+	"animation.h"
+
+1431096307 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\shield.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+
+1431352602 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\player.h
+	<SFML/Graphics.hpp>
+	"time.h"
+	"vector2d.h"
+
+1431355416 source:c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\pausestate.cpp
+	"pauseState.h"
+	"menuState.h"
+	<stdio.h>
+	<ctime>
+
+1431246936 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\pausestate.h
+	<vector>
+	"stateMachine.h"
+	"button.h"
+
+1431239254 source:c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\player.cpp
+	"player.h"
+	"windows.h"
+
+1431353806 source:c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\playstate.cpp
+	<fstream>
+	"playState.h"
+	"pauseState.h"
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<windows.h>
+
+1430747011 source:c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/engine.h"
+
+1432728705 c:\documente\info\eu-jocuri\4) sfml\15) ruffini v2\include\engine.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<windows.h>
+	"stateMachine.h"
+	"menuState.h"
+
+1431238644 source:e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\animation.cpp
+	"animation.h"
+	<iostream>
+
+1431238644 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\animation.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<stdarg.h>
+	<time.h>
+
+1430746942 source:e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\button.cpp
+	<iostream>
+	"button.h"
+
+1430744184 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\button.h
+	<SFML/Graphics.hpp>
+	"stateMachine.h"
+
+1431351784 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\statemachine.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1431287948 source:e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\enemy.cpp
+	"enemy.h"
+	"windows.h"
+	<iostream>
+
+1431349004 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\enemy.h
+	<SFML/Graphics.hpp>
+	"time.h"
+	"vector2d.h"
+
+1430912058 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\vector2d.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	"time.h"
+	"math.h"
+
+1430759438 source:e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\menustate.cpp
+	<fstream>
+	<iostream>
+	"menuState.h"
+	"playState.h"
+
+1430759438 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\menustate.h
+	"stateMachine.h"
+	"button.h"
+
+1431355358 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\playstate.h
+	<iostream>
+	"stateMachine.h"
+	"animation.h"
+	"fireball.h"
+	"iceball.h"
+	"shield.h"
+	"button.h"
+	"player.h"
+	"enemy.h"
+
+1431345808 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\fireball.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+	"animation.h"
+
+1431090740 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\iceball.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+	"animation.h"
+
+1431092708 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\shield.h
+	<SFML/Graphics.hpp>
+	"vector2d.h"
+
+1431349004 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\player.h
+	<SFML/Graphics.hpp>
+	"time.h"
+	"vector2d.h"
+
+1431351818 source:e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\pausestate.cpp
+	"pauseState.h"
+	"menuState.h"
+	<stdio.h>
+	<ctime>
+
+1431243338 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\pausestate.h
+	<vector>
+	"stateMachine.h"
+	"button.h"
+
+1431235656 source:e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\player.cpp
+	"player.h"
+	"windows.h"
+
+1431350208 source:e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\playstate.cpp
+	<fstream>
+	"playState.h"
+	"pauseState.h"
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<windows.h>
+
+1430743412 source:e:\info\eu-jocuri\4) sfml\15) ruffini v2\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/engine.h"
+
+1432725106 e:\info\eu-jocuri\4) sfml\15) ruffini v2\include\engine.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<windows.h>
+	"stateMachine.h"
+	"menuState.h"
+

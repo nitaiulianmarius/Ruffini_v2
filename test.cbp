@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/animation.cpp" />
+		<Unit filename="include/animation.h" />
+		<Unit filename="include/button.cpp" />
+		<Unit filename="include/button.h" />
+		<Unit filename="include/enemy.cpp" />
+		<Unit filename="include/enemy.h" />
+		<Unit filename="include/engine.h" />
+		<Unit filename="include/fireball.h" />
+		<Unit filename="include/iceball.h" />
+		<Unit filename="include/menuState.cpp" />
+		<Unit filename="include/menuState.h" />
+		<Unit filename="include/pauseState.cpp" />
+		<Unit filename="include/pauseState.h" />
+		<Unit filename="include/playState.cpp" />
+		<Unit filename="include/playState.h" />
+		<Unit filename="include/player.cpp" />
+		<Unit filename="include/player.h" />
+		<Unit filename="include/shield.h" />
+		<Unit filename="include/stateMachine.h" />
+		<Unit filename="include/vector2d.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
